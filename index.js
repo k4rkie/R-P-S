@@ -75,7 +75,7 @@ paper.addEventListener("click", function(){
     computerChoiceDisplay.textContent = `Computers Choice: ${computersChoice}`;
 
     roundResult(playersChoice, computersChoice);
-    playersScore.textContent = `Players Socre: ${pScore}`;
+    playersScore.textContent = `Players Score: ${pScore}`;
     computersScore.textContent = `Computers Score: ${cScore}`;
     
 });
@@ -89,7 +89,7 @@ scissor.addEventListener("click", function(){
     computerChoiceDisplay.textContent = `Computers Choice: ${computersChoice}`;
 
     roundResult(playersChoice, computersChoice);
-    playersScore.textContent = `Players Socre: ${pScore}`;
+    playersScore.textContent = `Players Score: ${pScore}`;
     computersScore.textContent = `Computers Score: ${cScore}`;
 
 });
