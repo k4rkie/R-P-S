@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+h1{
+    font-size: 40px;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    font-size: 22px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+.options div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid black;
+    margin: 10px;
+    font-size: 60px;
+    background-color: yellowgreen;
+}
+.choice{
+    margin: 20px;
+}
+.result{
+    margin: 10px;
+}
+.score{
+    margin: 10px;
+}
