@@ -39,6 +39,7 @@ p{
     margin: 10px;
     font-size: 60px;
     background-color: yellowgreen;
+    cursor: pointer;
 }
 .choice{
     margin: 20px;
